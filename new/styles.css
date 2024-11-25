@@ -1,0 +1,137 @@
+/* styles.css */
+body {
+    background-color: #1A3636;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #ADD8E6; /* Light blue */
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #ADD8E6; /* Light blue */
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+label, input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #ADD8E6; /* Light blue */
+    border: none;
+    padding: 10px;
+    color: #1A3636;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ADD8E6; /* Light blue */
+    opacity: 0.8;
+}
+
+.planets-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+}
+
+.planets-list li {
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.planets-list li:hover {
+    transform: scale(1.1);
+}
+
+.planet-box {
+    padding: 20px;
+    background-color: #444;
+    border: 2px solid #ADD8E6; /* Light blue */
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.planet-box:hover {
+    transform: scale(1.1);
+}
+
+.planet-box img {
+    width: 120px; /* Fixed width for consistency */
+    height: 120px; /* Fixed height to maintain uniformity */
+    object-fit: cover; /* Ensures image aspect ratio is preserved while filling the box */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.planet-box img:hover {
+    transform: scale(1.1);
+}
+
+.orbit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.orbit-button:hover {
+    background-color: #e67e22;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ADD8E6; /* Light blue */
+}
+
+footer p {
+    margin: 0;
+}
